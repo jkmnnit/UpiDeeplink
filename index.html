@@ -6,7 +6,14 @@
     <title>Invoke UPI App</title>
 </head>
 <body>
-    <h2>Pay with UPI</h2>
-    <a href="upi://pay?pa=amznpltesting008@apl&pn=DigiQR%20Merchant&mc=5411&tr=PQTreerw323234444444&am=1.00&cu=INR">Pay Now</a>
+
+<a id="autoClickLink" href="upi://pay?pa=amznpltesting008@apl&pn=DigiQR%20Merchant&mc=5411&tr=PQTreerw323234444444&am=1.00&cu=INR">Routing to UPI App</a>
+
+<script>
+    window.onload = function() {
+        document.getElementById("autoClickLink").click();
+    };
+</script>
+
 </body>
 </html>
